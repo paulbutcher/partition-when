@@ -1,6 +1,11 @@
 name = "partition-when"
 version = "0.1.0"
+testDriver = "PartitionWhenTests"
 defaultTargets = ["PartitionWhen"]
 
 [[lean_lib]]
 name = "PartitionWhen"
+
+[[lean_lib]]
+name = "PartitionWhenTests"
+globs = ["PartitionWhenTests.+"]
