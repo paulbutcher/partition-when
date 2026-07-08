@@ -1,0 +1,6 @@
+name = "partition-when"
+version = "0.1.0"
+defaultTargets = ["PartitionWhen"]
+
+[[lean_lib]]
+name = "PartitionWhen"
